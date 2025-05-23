@@ -1,0 +1,95 @@
+/* src/pages/ProjectsPage.css */
+
+/* Overall container style of the page */
+.projects-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+/* Title of each module */
+.section-title {
+  font-size: 1.8rem;
+  margin: 2.5rem 0 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #111;
+}
+
+/* Project Card Layout */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+/* Single Project Card */
+.project-card {
+  border: none;
+  border-radius: 16px;
+  background-color: #ffffff;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.project-card:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.project-card h3 {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  color: #0066ee;
+  font-weight: 600;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Technology Stack Grid Layout */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  row-gap: 2.5rem;
+  column-gap: 2.5rem;
+  justify-items: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+/* Technology Icons and Names */
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-item img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+
+.skill-item span {
+  font-size: 0.9rem;
+  color: #333;
+}

@@ -1,0 +1,80 @@
+/* src/components/Header.css */
+
+.site-header-wrapper {
+  width: 100%;
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  box-shadow: none;
+}
+
+/* Center content container */
+.site-header {
+  max-width: 1280px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  background-color: transparent;
+  color: var(--text-color);
+}
+
+/* Logo Title */
+.site-header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Nav Bar */
+.site-header nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.site-header nav a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 2px;
+  transition: color 0.2s ease;
+}
+
+.site-header nav a::after {
+  content: '';
+  display: block;
+  height: 2px;
+  background-color: var(--hover-border);
+  width: 0;
+  transition: width 0.3s ease;
+}
+
+.site-header nav a:hover::after,
+.site-header nav a.active::after {
+  width: 100%;
+}
+
+/* Upper right button area */
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.controls button {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  background-color: transparent;
+  color: var(--text-color);
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.controls button:hover {
+  background-color: rgba(0, 122, 255, 0.08);
+}

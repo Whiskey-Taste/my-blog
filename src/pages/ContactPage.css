@@ -1,0 +1,50 @@
+/* src/pages/ContactPage.css */
+
+.contact-page {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  text-align: left;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.section-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--hover-border);
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.contact-intro {
+  font-size: 1rem;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.contact-list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.contact-list li {
+  margin-bottom: 0.75rem;
+  color: var(--text-color);
+}
+
+.contact-list a {
+  color: var(--hover-border);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+  color: #0077cc;
+}

@@ -1,0 +1,14 @@
+/* src/components/Footer.css */
+
+.site-footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.875rem;
+  color: var(--text-color);
+  background: transparent;
+  box-shadow: none;
+  border: none;
+
+  max-width: 1280px;
+  margin: 3rem auto 0;
+}

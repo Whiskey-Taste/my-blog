@@ -1,0 +1,55 @@
+/* src/components/AboutMe.css */
+
+.aboutme-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding: 3rem 2rem;
+  max-width: 1100px;
+  margin: 4rem auto;
+  flex-wrap: wrap;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+}
+
+.aboutme-avatar img {
+  width: 180px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: var(--page-bg);
+}
+
+.aboutme-info h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.aboutme-info p {
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.tech-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.8rem;
+  margin-top: 1rem;
+}
+
+.tech-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+.tech-icon img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 0.4rem;
+}
