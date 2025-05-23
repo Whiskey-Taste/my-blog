@@ -1,12 +1,62 @@
-# React + Vite
+# 🧑‍💻 Tim's Personal Blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, responsive, and multilingual personal website built with **React + Vite**, showcasing my background, featured projects, technical stack, and contact information. Live demo available via **GitHub Pages**.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🌓 **Dark Mode** toggle
+- 🌐 **Language Switcher** (English / 中文)
+- 📷 **Responsive layout** with custom avatar
+- 🧠 **Projects & Tech Stack** with logos
+- 📰 **RSS-powered News Feed** (The Verge, InfoQ)
+- 📬 **Contact Page** with GitHub & LinkedIn
 
-## Expanding the ESLint configuration
+## 🔧 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React 19, React Router, Vite
+- **Styling**: CSS Modules, Custom Design Tokens
+- **Deployment**: GitHub Pages
+- **Linting**: ESLint, Unused Imports Detection
+
+## 🚀 Live Preview
+
+👉 [Visit Website](https://whiskey-taste.github.io/my-blog)
+
+## 📦 Project Setup
+
+```bash
+# Install dependencies
+npm install
+
+# Run locally
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+
+# Deploy to GitHub Pages
+npm run deploy
+
+# 🗂 Directory Structure
+'''
+my-blog/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── context/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+'''
+
+📄 License
+
+MIT License © 2025 Tim Tian
