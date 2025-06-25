@@ -69,7 +69,7 @@ const projectData = [
       zh: '面向服务类专业人士（如租赁经理、水管工、承包商）的智能虚拟助手平台，采用 Next.js、NestJS、React Native、AWS 与基于 RAG 的大模型架构开发。'
     },
     image: aiImage,
-    link: 'http://uat.dispatchai.click/'
+    link: 'https://uat.getdispatch.ai/'
   }
 ];
 
